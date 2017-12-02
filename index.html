@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Starter Pack</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar fixed-top bg-info">
+        <div class="container">
+            <div class="text-white" id="brand">
+                <h3 class="display-4"><strong>Codehunter</strong></h3>    
+            </div>
+        </div>
+    </nav>
+    <br/>
+    <section id="main-body" class="">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="container">
+                    <div class="card text-center">
+                        <div class="card-header bg-info">
+                            <h3 class="text-white">Login</h3> 
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                   <input type="text" id="name" class="form-control form-control-lg" placeholder="Username">
+                                   <div >
+                                        <span data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="fa fa-user fa-lg fa-custom"></span>
+                                   </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" id="name" class="form-control form-control-lg" placeholder="Password">
+                                    <span class="fa fa-eye fa-lg fa-custom"></span>
+                                </div>
+                                <div class="form-check pull-left">
+                                    <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">
+                                    <span class="text-muted">Remember Me</span>
+                                    </label>
+                                </div>
+                                <span class="pull-right">
+                                    <input class="btn btn-danger btn-lg text-left" type="submit" value="Login">
+                                </span>
+                            </form>
+                        </div>
+                        <div class="card-footer bg-info">
+                            <a href=""><span class="text-white font-italic">Opss! I forgot password my password</span></a>                                       
+                        </div>
+                    </div>
+                    <br/>
+
+                    <blockquote class="blockquote text-left text-danger">
+                        <p>Any fool can write code that a computer can understand. Good programmers write code that humans can understand</p>
+                        <footer class="blockquote-footer"> <cite title="Source Title">John Johnson</cite></footer>
+                    </blockquote>
+                </div>
+                
+            </div>
+            <div class="col-md-6">
+                    <div class="container">
+                            <div class="card text-center">
+                                <div class="card-header bg-info">
+                                    <h3 class="text-white">Register</h3> 
+                                </div>
+                                <div class="card-body">
+                                    <form>
+                                        <div class="form-group">
+                                           <input type="text" id="name" class="form-control form-control-lg" placeholder="Enter Your Name">
+                                           <div >
+                                                <span data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="fa fa-user-o fa-lg fa-custom"></span>
+                                           </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" id="name" class="form-control form-control-lg" placeholder="Enter Your Email">
+                                            <div >
+                                                    <span data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="fa fa-envelope fa-lg fa-custom"></span>
+                                            </div>
+                                         </div>
+                                        <div class="form-group">
+                                            <input type="password" id="name" class="form-control form-control-lg" placeholder="Enter Your Password">
+                                            <span class="fa fa-key fa-lg fa-custom"></span>
+                                        </div>
+                                        <div class="form-group">
+                                                <input type="password" id="name" class="form-control form-control-lg" placeholder="Confirm Your Password">
+                                                <span class="fa fa-key fa-lg fa-custom"></span>
+                                            </div>
+                                        <div class="form-check pull-left">
+                                            <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input">
+                                            <span class="text-muted">I Agree To Terms of Usage</span>
+                                            </label>
+                                        </div>
+                                        <span class="pull-right">
+                                           <input class="btn btn-danger btn-lg text-left" type="reset" value="Reset">
+                                            <input class="btn btn-danger btn-lg text-left" type="submit" value="Register">
+                                        </span>
+                                    </form>
+                                </div>
+                                <div class="card-footer bg-info text-white">
+                                       <h4>Let The Hunt For The Code Begin !!!</h4>                                       
+                                </div>
+            </div>
+        </div>
+    </section>
+    
+    <br/>
+    <br/>
+    <div class="text-dark text-center">
+       <h6> We use your browser cookie for a smoother and better user experinece. By visiting this site you agree to our cookie policies.</h6>
+    </div>
+    <footer id="footer" class="bg-info fixed-bottom py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="contact text-white">
+                        <i class="fa fa-phone"></i>&nbsp; +91-9438381217
+                  </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="contact text-white">
+                        <i class="fa fa-envelope"></i>&nbsp; soumyajeet08@gmail.com
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-right text-white">
+                        <h6>Copyright &copy; Soumyajeet</h6>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+        </div>
+        
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+            // Init tooltips
+        $('[data-toggle="tooltip"]').tooltip();
+    </script>
+</body>
+</html>
